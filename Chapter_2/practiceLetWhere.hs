@@ -1,7 +1,7 @@
 module PracticeLetWhere where
 
 -- let x = 5; y = 6 in x * y
-multi = x * y
+mult1 = x * y
     where   
         x = 5; y = 6
 
