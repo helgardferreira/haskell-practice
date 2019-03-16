@@ -14,7 +14,3 @@ hello = "hello"
 
 world :: String
 world = "world!"
-
-x = 3
-
-triple x = 3 * x
