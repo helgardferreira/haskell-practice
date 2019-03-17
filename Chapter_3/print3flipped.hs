@@ -5,7 +5,7 @@ main = do
     putStrLn myGreeting
     putStrLn secondGreeting
         where
-            secondGreeting = 
+            secondGreeting =
                 (++) hello $ (++) " " world
 
 myGreeting :: String

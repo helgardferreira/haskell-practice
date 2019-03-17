@@ -1,5 +1,5 @@
 module FunctionWithWhere where
 
-printInc n = 
+printInc n =
     print plusTwo
     where plusTwo = n + 2
