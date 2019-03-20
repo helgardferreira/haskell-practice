@@ -21,3 +21,10 @@ instance Eq Date where
             (Date weekday' dayOfMonth') =
         weekday == weekday'
         && dayOfMonth == dayOfMonth'
+
+-- Example where friday is best day
+instance Ord DayOfWeek where
+    compare Fri Fri = EQ
+    compare Fri _ = GT
+    compare _ Fri = LT
+    compare _ _ = EQ
